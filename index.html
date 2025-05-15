@@ -20,9 +20,11 @@
 
     <title>Matching Adventure</title>
     <script type="module" crossorigin src="/matching-adventure/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/matching-adventure/assets/styles-cCQ4LP5w.css">
+    <link rel="modulepreload" crossorigin href="/matching-adventure/assets/vendor-DKb0GOnq.js">
+    <link rel="stylesheet" crossorigin href="/matching-adventure/assets/vendor-DHBATib1.css">
+    <link rel="stylesheet" crossorigin href="/matching-adventure/assets/styles-DvKbQcoH.css">
   </head>
-  <body>
+  <body class="background">
     <header class="header">
   <div class="container">
 
@@ -32,7 +34,133 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <!-- Hero -->
+ <section class="hero-section">
+    <div class="container hero-container">
+        <h1 class="hero-title">Begin Your Jewel-Matching Adventure!</h1>
+        <picture class="picture">
+            <source srcset="/matching-adventure/assets/img-desk-Bug76d3k.png 1x, /matching-adventure/assets/img-desk@2x-DOG2KEwz.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/matching-adventure/assets/img-mob-tCEhFm3b.png 1x, /matching-adventure/assets/img-mob@2x-lUQ7aVBT.png 2x" media="(max-width: 1438px)" />
+            <img class="hero-img" src="/matching-adventure/assets/img-mob-tCEhFm3b.png" alt="Play screens" loading="lazy"/>
+            </picture>
+            <picture class="picture">
+                <source srcset="/matching-adventure/assets/girl-desk-CHKwW54o.png 1x, /matching-adventure/assets/girl-desk@2x-li2KLzKR.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/matching-adventure/assets/girl-mob-C6oDfn0B.png 1x, /matching-adventure/assets/girl-mob@2x-MskWRGzn.png 2x" media="(max-width: 1438px)" />
+                <img class="girl-img" src="/matching-adventure/assets/girl-mob-C6oDfn0B.png" alt="Girl" loading="lazy" />
+                </picture>
+    </div>
+ </section>
+ <!-- Benefits -->
+  <section class="benefits-section">
+    <div class="container">
+        <h2 class="benefits-title">Benefits</h2>
+        <div class="swiper benefits-swiper">
+            <div class="swiper-wrapper benefits-swiper-wrapper">
+                <div class="swiper-slide benefits-swiper-slide">
+                    <p class="swiper-benefits-title">Underwater Puzzle Adventure</p>
+                    <p class="swiper-benefits-text">Experience an ocean of fun with relaxing match-3 gameplay in
+                    a beautifully animated underwater world</p> 
+                </div>
+                <div class="swiper-slide benefits-swiper-slide">
+                    <p class="swiper-benefits-title">Colorful Gem Matching</p>
+                    <p class="swiper-benefits-text">Swap dazzling jewels to trigger explosive combos and powerful boosters</p>
+                </div>
+                <div class="swiper-slide benefits-swiper-slide">
+                    <p class="swiper-benefits-title">Treasure Discovery</p>
+                    <p class="swiper-benefits-text">Uncover mysterious artifacts and collect sunken treasures with each completed level</p>
+                </div>
+                <div class="swiper-slide benefits-swiper-slide">
+                    <p class="swiper-benefits-title">Boosters and <br class="desk"/> Power-ups</p>
+                    <p class="swiper-benefits-text">Use strategic items like whirlpool bombs, coral blasters, and lightning gems to win challenging levels</p>
+                </div>
+                <div class="swiper-slide benefits-swiper-slide">
+                    <p class="swiper-benefits-title">Social Leaderboards</p>
+                    <p class="swiper-benefits-text">Compete with friends and climb the leaderboard rankings to become the jewel master of the sea!</p>
+                </div>
+                <div class="swiper-slide benefits-swiper-slide">
+                    <p class="swiper-benefits-title">Endless Fun</p>
+                    <p class="swiper-benefits-text">With hundreds of unique levels and new updates, the adventure never ends</p>
+                </div>
+                <div class="swiper-slide benefits-swiper-slide">
+                    <p class="swiper-benefits-title">Relax and Play Offline</p>
+                    <p class="swiper-benefits-text">Perfect for casual gaming anytime, anywhere — no internet needed!</p>
+                </div>
+            </div>
+        </div>
+
+            <div class="custom-pagination">
+                <div class="pagination-item active"></div>
+                <div class="pagination-item"></div>
+                <div class="pagination-item"></div>
+                <div class="pagination-item"></div>
+                <div class="pagination-item"></div>
+                <div class="pagination-item"></div>
+                <div class="pagination-item"></div>
+            </div>
+
+    </div>
+  </section>
+  <!-- Game Description -->
+   <section class="game-section">
+    <div class="container">
+        <h2 class="game-title">Game Description</h2>
+        <div class="game-wrapper">
+        <picture class="game-picture">
+            <source srcset="/matching-adventure/assets/game-desk-QnAuHj2z.png 1x, /matching-adventure/assets/game-desk@2x-BBfIjy-N.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/matching-adventure/assets/game-mob-BUXFvQxr.png 1x, /matching-adventure/assets/game-mob@2x-mTgqWYR7.png 2x" media="(max-width: 1438px)" />
+            <img class="game-img" src="/matching-adventure/assets/game-mob-BUXFvQxr.png" alt="Play screen" loading="lazy" />
+        </picture>
+        <p class="game-text">Welcome to <span class="game-span">Jewels Magic - Mania Blast</span>, a mesmerizing undersea puzzle game where you’ll explore the ocean depths and
+        solve glittering match-3 challenges! Match sparkling gems, unlock chests filled with ancient riches, and dive into an
+        unforgettable aquatic adventure.<br/>
+        Swap and blast your way through vibrant levels — from colorful coral reefs to haunting shipwrecks — as you complete
+        quests, earn stars, and uncover hidden secrets. Whether you're a seasoned puzzle player or a casual gamer, this magical
+        underwater world will keep you hooked!</p>
+    </div>
+    </div>
+   </section>
+   <!-- Extra Blocks -->
+    <article class="extra-section">
+        <div class="container">
+            <h2 class="extra-title">Extra Blocks</h2>
+            <div class="swiper extra-swiper">
+                <div class="swiper-wrapper extra-swiper-wrapper">
+                    <div class="swiper-slide extra-swiper-slide">
+                        <div class="extra-wrapper">
+                        <svg class="header-svg" width="32" height="32">
+                            <use href="/matching-adventure/assets/sprite-BGwBGqyI.svg#icon-extra"></use>
+                        </svg>
+                        <p class="swiper-extra-title">Adventure Map</p>
+                    </div>
+                        <p class="swiper-extra-text">Track your journey through Glistening Grotto, Treasure Trench, Coral Caves, and Abyssal Sanctum — each region with
+                        unique visuals and challenges</p>
+                        </div>
+                        <div class="swiper-slide extra-swiper-slide">
+                            <div class="extra-wrapper">
+                                <img class="header-svg" src="data:image/png;base64,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" alt="Extra" width="32" height="32" loading="lazy" />
+                                <p class="swiper-extra-title">Daily Treasure Spin</p>
+                              </div>
+                            <p class="swiper-extra-text">Spin the Wheel of the Deep every day for chances to win boosters, extra lives, and rare artifacts!</p>
+                            </div>
+             <div class="swiper-slide extra-swiper-slide">
+         <div class="extra-wrapper">
+            
+            <img class="header-svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGUSURBVHgB7VbRbYMwED0HGvWTbsAGpQs0sEFHyAZVJ0g36AhpJqg6ASlZgA3KCHyHmOsZ4ggcCG4wQpF4UoI5v+Med4dtgAma4Bih+JniScxgZDDVcMBoScYPGjpgFgkCvttssbkoIMfol/LnwjBILfb8UDXYKkMGJ2JNnKyralfRxjvaz7I6eg/YusSuN/8vT2L0DEwCtHugL9p6YyqBcQEZ7vwMQ1+Xb7wHLIBV8Q+w1eEbzcAeQ482HJ/WXO0sGBVggfVaGa90fIwJQAxduixP95pZOPs2dXY9OjO8MGCP5O4yQI/CORe28JS4sbgSJ87h8HPHgq2cvKoJc+AJpXh9DNwFR/RFOSz647s6eVUJ5iyIOfCAhqm+F6Yc8kD49hYgRcyAP1EJkm42Jk3BewkQYCxIGD24i7dvCd5bgECmcXi9h3lrqzQ1oairo57t23czy4UO8LIJN83+ChD4m15dS5CqRd2/WII/65zcg6GQ4y4U2aK1IUSMTmLEwkT2tZijo/4XDAXx8GpgFWJuUAE3jz/8TrS7NeIDdwAAAABJRU5ErkJggg==" alt="Extra" width="32" height="32" loading="lazy"/>
+            <p class="swiper-extra-title">Weekly Events</p>  
+            </div>
+            <p class="swiper-extra-text">Take part in limited-time underwater festivals, puzzle regattas, and boss battles against sea creatures guarding
+            treasure vaults</p> 
+    </div>
+                </div>
+            </div>
+
+            <div class="extra-custom-pagination">
+                <div class="extra-pagination-item active"></div>
+                <div class="extra-pagination-item"></div>
+                <div class="extra-pagination-item"></div>
+            </div>
+        </div>
+    </article>
     </main>
 
     <footer class="footer">
