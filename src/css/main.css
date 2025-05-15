@@ -1,0 +1,241 @@
+/* Hero */
+.hero-section{
+    background-color:rgba(23, 42, 84, 0.3);
+    background-image: url("/img/hero/hero-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:cover;
+    height: 709px;
+}
+.hero-container{
+    position: relative;
+}
+.hero-title{
+    margin-top: 60px;
+    font-family: "Kumbh Sans", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.5;
+        color: #fff;
+        margin-bottom: 40px;
+}
+.hero-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.girl-img{
+    position: absolute;
+    bottom: -94px;
+    right: 0;
+}
+@media only screen and (min-width: 1439px) {
+.hero-section {
+background-image: url("/img/hero/hero-desk.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+height: 969px;
+ } 
+.hero-container {
+    position: relative;
+    display: flex;
+   
+}
+.hero-title {
+margin-top: 150px;
+font-size: 56px;
+margin-bottom: 0;
+width: 636px;
+margin-left: 12px;
+}
+.hero-img {
+    margin-top: 150px;
+    margin-left: 156px;
+}
+.girl-img {
+position: absolute;
+bottom: -248px;
+right: 0;
+}
+}
+/* Benefits */
+.benefits-section{
+    background-image: url("/img/benefits/fish-mob.png");
+    background-repeat: no-repeat;
+    background-position: top 84px left -10px;
+    background-size: 185px 82px;
+}
+.benefits-title{
+    margin-bottom: 40px;
+}
+.benefits-swiper-slide{
+    background: rgba(253, 228, 255, 0.2);
+    border-radius: 16px;
+        padding: 16px;
+        min-height: 130px;
+}
+.swiper-benefits-title{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+    width: 100%;
+    height: 32px;
+}
+
+.pagination-item {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    background: #5b5ad7;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pagination-item.active {
+    border-radius: 100%;
+    background-color: #b95fee;
+ }
+ .desk{
+    display: none;
+ }
+ @media only screen and (min-width: 1439px){
+.benefits-section {
+ background-image: url("/img/benefits/fish-desk.png");
+background-repeat: no-repeat;
+background-position: top 60px left;
+background-size: 384px 170px;
+}
+.benefits-title {
+margin-bottom: 56px;
+}
+.custom-pagination{
+    display: none;
+}
+.benefits-swiper-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.benefits-swiper-slide {
+    padding:24px 20px;
+        max-width: 300px;
+        min-height: 228px;
+}
+.swiper-benefits-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    height: 72px;
+}
+.desk{
+    display: block;
+}
+.swiper-benefits-text{
+    font-size: 16px;
+}
+ }
+ /* Game Description */
+ .game-section{
+    background-image: url("/img/game/fish-mob-right.png");
+    background-repeat: no-repeat;
+        background-position: top 40px right -10px;
+        background-size: 241px 108px;
+ }
+ .game-title{
+    margin-bottom: 40px;
+ }
+ .game-img{
+    margin-bottom: 16px;
+ }
+ .game-span{
+    font-weight: 600;
+        color: #fff943;
+ }
+ @media only screen and (min-width: 1439px) {
+    .game-section{
+        background-image: none;
+    } 
+    .game-title{
+        margin-bottom: 56px;
+    }
+    .game-wrapper{
+        display: flex;
+        gap: 24px;
+    }
+    .game-picture{
+        order: 2;
+    }
+    .game-text{
+        font-size: 24px;
+        width: 636px;
+    }
+ }
+ /* Extra Blocks */
+ .extra-title{
+    margin-bottom: 40px;
+ }
+.extra-swiper-slide{
+    background: rgba(23, 42, 84, 0.4);
+    border-radius: 16px;
+        padding: 16px;
+        min-height: 160px;
+}
+.extra-wrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.swiper-extra-title{
+    font-weight: 500;
+        font-size: 18px;
+}
+ .extra-custom-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+    width: 100%;
+    height: 32px;
+}
+.extra-pagination-item {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    background: #5b5ad7;
+    transition: background-color 0.3s ease-in-out;
+}
+.extra-pagination-item.active {
+    border-radius: 100%;
+    background-color: #b95fee;
+ }
+ @media only screen and (min-width: 1439px) {
+    .extra-title{
+        margin-bottom: 56px;
+    } 
+.extra-swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.extra-swiper-slide{
+    max-width: 416px;
+        min-height: 204px;
+}
+.extra-custom-pagination{
+    display: none;
+}
+.swiper-extra-title {
+    font-size: 24px;
+}
+.swiper-extra-text{
+    font-size: 18px;
+}
+ }

@@ -5,4 +5,24 @@ body{
     font-size: 14px;
     line-height: 1.5;
     color: #eff7ff;
+
+}
+.background{
+  background-image: url("/img/benefits/fish-desk-right.png");
+    background-repeat: no-repeat;
+    background-position: top 1730px right;
+    background-size: 384px 170px;
+}
+h2{
+  font-family: "Kumbh Sans", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    color: #eff7ff;
+}
+@media only screen and (min-width: 1439px) {
+  h2{
+    font-size: 48px;
+  }
 }
