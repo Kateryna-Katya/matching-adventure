@@ -1,0 +1,101 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    border-radius: 16px;
+        padding: 16px 20px;
+        backdrop-filter: blur(60px);
+            background: #bfe0fe;
+    z-index: 1000;
+    width: 374px;
+    height: auto;
+    text-align: left;
+    display: none;
+}
+.popup-wrapper{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.cookie-class {
+    font-family: "Kumbh Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #172a54;
+    width: 202px;
+}
+.popup-link{
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #b7a480;
+}
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-accept {
+    border-radius: 14px;
+        padding: 12px 10px;
+        width: 125px;
+        height: 44px;
+        background: #d8bd00;
+    box-sizing: border-box;
+    border: none;
+}
+
+.btn-decline {
+    border: 1px solid #d8bd00;
+        border-radius: 14px;
+        padding: 12px 10px;
+        width: 125px;
+        height: 44px;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 20px 30px;
+        width: 1439px;
+        height: auto;
+    }
+        .popup-wrapper {
+            display: flex;
+            gap: 536px;
+            align-items: center; 
+ }
+    .cookie-class {
+        width: 500px;
+        font-size: 18px;
+    }
+
+    .cookie-buttons {
+        flex-direction: row;
+        width: 344px;
+            height: 51px;
+        gap: 16px;
+    }
+        .btn-accept {
+            border-radius: 12px;
+                width: 156px;
+                height: 51px;
+            box-sizing: border-box;
+            border: none;
+            font-size: 18px;
+        }
+    
+        .btn-decline {
+                border-radius: 12px;
+                width: 172px;
+                height: 51px;
+            box-sizing: border-box;
+            background-color: inherit;
+            font-size: 18px;
+  }
+}
