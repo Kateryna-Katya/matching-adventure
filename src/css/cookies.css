@@ -1,0 +1,70 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+
+.policy-background {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #eff7ff;
+}
+
+.policy-title {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+    color: #eff7ff;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text-span {
+    font-weight: 600;
+}
+
+.policy-subtitle {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 16px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 16px;
+}
+
+@media only screen and (min-width: 1439px) {
+    .policy-background {
+        font-size: 24px;
+    }
+
+    .policy-title {
+        font-size: 48px;
+        margin-top: 99px;
+        margin-bottom: 56px;
+    }
+
+    .policy-subtitle {
+        font-size: 32px;
+    }
+}
